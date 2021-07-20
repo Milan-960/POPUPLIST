@@ -1,0 +1,93 @@
+.lodu {
+  overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.input {
+  z-index: 11;
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 100%;
+  max-width: 25rem;
+  background-color: rgba(0, 180, 252, 0.616);
+  z-index: 1;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.input input {
+  font-size: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  display: block;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  font-family: "Caveat", cursive;
+}
+
+.input ::placeholder {
+  font-size: 20px;
+  color: black;
+}
+
+.input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  padding: 5px 0;
+  font-size: 20px;
+  color: white;
+  pointer-events: none;
+  transition: 0.5s;
+  font-family: "Caveat", cursive;
+}
+.input input:focus {
+  outline: none;
+  border-color: #4f005f;
+}
+
+@media (min-width: 800px) {
+  .input input {
+    font-size: 30px;
+  }
+  .input {
+    top: 5%;
+    left: 38%;
+    position: absolute;
+    z-index: 11;
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 100%;
+    max-width: 25rem;
+    background-color: rgba(0, 180, 252, 0.616);
+    z-index: 1;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  .lodu {
+    
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+    background-repeat: repeat;
+    background-size: cover;
+    padding-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,25 @@
+.users {
+  margin: -13rem auto;
+  width: 100%;
+  max-width: 40rem;
+}
+
+.users ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+.users li {
+  border: 1px solid white;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+@media (min-width: 800px) {
+  .users {
+
+    margin: -18rem auto;
+    width: 100%;
+    max-width: 40rem;
+  }
+}
