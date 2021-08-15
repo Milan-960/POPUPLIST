@@ -20,7 +20,7 @@ function User(props) {
     ) {
       setError({
         title: "You have entered invalid input",
-        message: "Please enter a valid name age and gender ",
+        message: "Please enter a valid name age and gender",
       });
 
       return;

@@ -15,7 +15,7 @@ function Error(props) {
           <p>{props.message}</p>
         </div>
         <footer className={classes.actions}>
-          <Button onClick={props.onConfirm} > OKAY!! </Button>
+          <Button onClick={props.onConfirm} > OKAY!!! </Button>
         </footer>
       </Card>
     </div>
